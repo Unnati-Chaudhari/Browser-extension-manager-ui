@@ -29,8 +29,8 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-browser-extension-manager-ui-TMAX1m02al)
+- Live Site URL: [live site URL here](https://unnati-chaudhari.github.io/Browser-extension-manager-ui/)
 
 
 ## My process
