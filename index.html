@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser-extensions-manager-ui-main</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <!-- Heading section -->
+      <div class="heading">
+        <div class="logo_div"></div>
+        <button class="mode_btn" type="reset">
+          <div class="mode_img_div"></div>
+        </button>
+      </div>
+
+      <!-- Title section -->
+      <div class="title_div">
+        <div class="ext_title">
+          <h2>Extensions List</h2>
+        </div>
+        <div class="state_btn">
+          <button class="all_btn selected">All</button>
+          <button class="active_btn">Active</button>
+          <button class="inactive_btn">Inactive</button>
+        </div>
+      </div>
+
+      <!-- For cards -->
+      <div class="card_div">
+        <div class="card_list">
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img one"></div>
+                <div class="card_info">
+                  <h5>DevLens</h5>
+                  <p>
+                    Quickly inspect page layouts and visualize element
+                    boundaries.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img two"></div>
+                <div class="card_info">
+                  <h5>StyleSpy</h5>
+                  <p>
+                    Instantly analyze and copy CSS from any webpage element.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img three"></div>
+                <div class="card_info">
+                  <h5>SpeedBoost</h5>
+                  <p>
+                    Optimizes browser resource usage to accelerate page loading.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img four"></div>
+                <div class="card_info">
+                  <h5>JSONWizard</h5>
+                  <p>
+                    Formats, validates, and prettifies JSON responses
+                    in-browser.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img five"></div>
+                <div class="card_info">
+                  <h5>TabMaster Pro</h5>
+                  <p>Organizes browser tabs into groups and sessions.</p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img six"></div>
+                <div class="card_info">
+                  <h5>ViewportBuddy</h5>
+                  <p>
+                    Simulates various screen resolutions directly within the
+                    browser.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img seven"></div>
+                <div class="card_info">
+                  <h5>Markup Notes</h5>
+                  <p>
+                    Enables annotation and notes directly onto webpages for
+                    collaborative debugging.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img eight"></div>
+                <div class="card_info">
+                  <h5>GridGuides</h5>
+                  <p>
+                    Overlay customizable grids and alignment guides on any
+                    webpage.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img nine"></div>
+                <div class="card_info">
+                  <h5>Palette Picker</h5>
+                  <p>Instantly extracts color palettes from any webpage.</p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img ten"></div>
+                <div class="card_info">
+                  <h5>LinkChecker</h5>
+                  <p>Scans and highlights broken links on any page.</p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img eleven"></div>
+                <div class="card_info">
+                  <h5>DOM Snapshot</h5>
+                  <p>Capture and export DOM structures quickly.</p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_content">
+              <div class="card_content_one">
+                <div class="card_logo_img twelve"></div>
+                <div class="card_info">
+                  <h5>ConsolePlus</h5>
+                  <p>
+                    Enhanced developer console with advanced filtering and
+                    logging.
+                  </p>
+                </div>
+              </div>
+              <div class="card_content_two">
+                <button class="remove">Remove</button>
+                <button class="toggle_btn">
+                  <span class="toggle_circle"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Unnati Chaudhari</a>.
+    </footer> -->
+    <script src="script.js"></script>
+  </body>
+</html>
